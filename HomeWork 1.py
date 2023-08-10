@@ -5,3 +5,4 @@ print(is_palindrome(input_string))  # Вывод: True
 
 input_string = "helloworld"
 print(is_palindrome(input_string))  # Вывод: False
+
