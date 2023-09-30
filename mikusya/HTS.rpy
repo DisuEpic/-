@@ -1,7 +1,7 @@
 init:
 
     $ mods["hts_prolog_1"]=u"Мику Мод"
-    image bus = "mods/mikusya/bg/bus.png"
+    image bus = "mods/HTS/bg/bus.png"
     $ gpt = Character (u'Голоса по телефону', color="1E90FF", what_color="E2C778")
     
 label hts_prolog_1:
