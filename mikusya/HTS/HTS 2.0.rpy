@@ -178,6 +178,8 @@ label hts_prolog_2:
     play sound ringtone
     
     me "Да?"
+	
+	stop sound
 
     gpt "Это Семён Персунов?"
     
