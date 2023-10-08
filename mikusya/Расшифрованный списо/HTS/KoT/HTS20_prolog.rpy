@@ -4,6 +4,7 @@ init:
     
     #Персонажи
     $ gpt = Character(u'Голос по телефону', color="EEE8AA", what_color="E2C778")
+    $ gl = Character(u'Девушка', color="#0AC71A", what_color="E2C778")
     
     
     #Музыка
@@ -20,15 +21,13 @@ init:
     
     #BG 
     image bus = "mods/HTS/bg/bus.png"
-    
-    
-    
     image semen_room_clean = "mods/HTS/bg/int_semen_room_clean_7dl.jpg"
+    image vhod_v_sovenok = "mods/HTS/bg/vhod_v_sovenok.jpg"
     
 label hts_prolog_1:
     
     scene bg semen_room_window with dissolve
-    play music exodus fadein 2
+    play music music_list["a_promise_from_distant_days"] fadein 2
     
     "Как часто вы ловили себя на мысли, что жизнь не справедлива?"
     "Казалось ли вам, что вы нежеланны в своей истории с самого начала?" 
@@ -143,7 +142,7 @@ label hts_prolog_2:
     
     $ ringtone = "mods/HTS/sfx/ringtone_7dl.ogg" 
     
-    scene semen_room_clean
+    scene semen_room_clean with dissolve
     
     stop music
     
@@ -177,7 +176,7 @@ label hts_prolog_2:
     me "Я возьму всё."
     "Скинув трубку, я впопыхах стал надевать разбросанные по комнате вещи. Телефон и деньги, отложенные на коммуналку, бабушкино день рождение и продукты я сложил в свою сумку и выбежал на улицу, не удосужившись даже закрыть квартиру."
     
-    show bus with dissolve
+    scene bus with dissolve
     
     "Было около девяти вечера я успевал на автобус, стоявший около моей остановки, запрыгнув туда почти на ходу, я почувствовал, как за спиной закрылись двери. "
     "Лицо обдало морозным воздухом, а невидимая дрожь прошла по всему телу."
