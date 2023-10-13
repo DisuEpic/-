@@ -1,10 +1,12 @@
 init:
     $ mods["hts_prolog_1"]=u"Хацунэ"
-    
-    
+       
     #Персонажи
     $ gpt = Character(u'Голос по телефону', color="EEE8AA", what_color="E2C778")
     $ gl = Character(u'Девушка', color="#0AC71A", what_color="E2C778")
+    $ med = Character(u'Медсестра', color="#7B68EE", what_color="E2C778")
+    $ mik = Character(u'Девушка', color="#00FFFF", what_color="E2C778")
+    $ le = Character(u'Девушка', color="#800080", what_color="E2C778")
     
     
     #Музыка
