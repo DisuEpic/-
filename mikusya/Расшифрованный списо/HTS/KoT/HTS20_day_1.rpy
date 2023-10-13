@@ -237,8 +237,8 @@ label HTS20_day1:
     menu:
         "Пойти в домик":
                     jump hts_domik                    
-        "Пляж":
-            jump hts_beach
+        "Пойти на пляж":
+                    jump hts_beach
             
    
 label hts_domik:
